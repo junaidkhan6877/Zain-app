@@ -3,12 +3,12 @@ import React from 'react'
 const Clone = () => {
   return (
     <div>
-      first space click 
-      and second "my git code link pest power shell "
-      git add . 
-      git push origin master 
-      git commit -m "branch"
-      git status 
+      first space click <hr></hr>
+      and second "my git code link pest power shell "<hr></hr>
+      git add . <hr></hr>
+      git push origin master <hr></hr>
+      git commit -m "branch"<hr></hr>
+      git status <hr></hr>
     </div>
   )
 }
