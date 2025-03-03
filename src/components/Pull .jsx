@@ -5,7 +5,8 @@ const Pull  = () => {
     <div>
         <h1>Git Pull Commands</h1>
       git pull origin master <hr></hr>
-      code . <hr></hr>
+      code .
+      <p>zain naseer</p> <hr></hr>
     </div>
   )
 }

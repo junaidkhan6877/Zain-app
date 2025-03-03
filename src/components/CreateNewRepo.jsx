@@ -8,6 +8,7 @@ const CreateNewRepo = () => {
       git status <hr></hr>
       git add .<hr></hr> 
       git commit -m "aney text" <hr></hr>
+      git git git remove 
       git remote add origin https://github.com/junaidkhan6877/Zain-app.git<hr></hr>
       git push origin master " branch name"<hr></hr>
       <div style={{backgroundColor:"red"}}>Good Work</div>
