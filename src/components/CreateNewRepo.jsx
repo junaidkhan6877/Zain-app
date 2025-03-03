@@ -10,7 +10,7 @@ const CreateNewRepo = () => {
       git commit -m "aney text" <hr></hr>
       git remote add origin https://github.com/junaidkhan6877/Zain-app.git<hr></hr>
       git push origin master " branch name"<hr></hr>
-      <h3>i love pakistan </h3>
+      <div style={{backgroundColor:"red"}}>Good Work</div>
     </div>
   )
 }
