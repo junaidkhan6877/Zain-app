@@ -4,6 +4,7 @@ import Zain from './components/Zain';
 import CreateNewRepo from './components/CreateNewRepo';
 import Clone from './components/Clone';
 import Pull from './components/Pull ';
+import Maqbool from './components/Maqbool';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <CreateNewRepo/>
      <Clone/>
      <Pull/>
+     <Maqbool/>
     </div>
   );
 }
