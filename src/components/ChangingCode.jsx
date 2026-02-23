@@ -9,6 +9,7 @@ const ChangingCode = () => {
         <p className='ptag'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, illo.
         </p>
+        <input type='text'/>
         <hr/>
     </div>
   )
