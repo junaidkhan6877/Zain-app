@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
      <Zain/>
-     <CreateNewRepo/>
+     {/* <CreateNewRepo/>
      <Clone/>
-     <Pull/>
+     <Pull/> */}
     </div>
   );
 }

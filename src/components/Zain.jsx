@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 
 const Zain = () => {
     const [ben,setBen]=useState('');
+
+    const [junaid,setJunaid]=useState("red")
   return (
     <div>
       <div style={{backgroundColor:"green"}}>One</div>
@@ -9,6 +11,9 @@ const Zain = () => {
       <h1>{ben}</h1>
       <p>Muhammd zain naseer</p>
       <p>junaid</p>
+<input type="text" placeholder='Search'  onChange={(e)=>setJunaid(e.target.value)} value={junaid}/>
+<h2>{junaid}</h2>
+      
     </div>
   )
 }
