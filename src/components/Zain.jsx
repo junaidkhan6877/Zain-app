@@ -3,7 +3,10 @@ import React, { useState } from 'react'
 const Zain = () => {
     const [ben,setBen]=useState('');
 
-    const [junaid,setJunaid]=useState("red")
+    const [junaid,setJunaid]=useState("red");
+
+
+    const [my,setMy]=useState('green');
   return (
     <div>
       <div style={{backgroundColor:"green"}}>One</div>
@@ -13,7 +16,7 @@ const Zain = () => {
       <p>junaid</p>
 <input type="text" placeholder='Search'  onChange={(e)=>setJunaid(e.target.value)} value={junaid}/>
 <h2>{junaid}</h2>
-      
+      <button type='button' style={{color:"red", backgroundColor:"black"}} onClick={()=>setMy()}>{my}</button>
     </div>
   )
 }
