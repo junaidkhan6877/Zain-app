@@ -10,10 +10,14 @@ function App() {
   return (
     <div className="App">
      <Zain/>
-     <CreateNewRepo/>
+     {/* <CreateNewRepo/>
      <Clone/>
+<<<<<<< HEAD
      <Pull/>
      <Maqbool/>
+=======
+     <Pull/> */}
+>>>>>>> fb5d91e089056d5f5134e75163cafc5c4dbb8454
     </div>
   );
 }
