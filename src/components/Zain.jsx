@@ -8,6 +8,7 @@ const Zain = () => {
       <input type="text"  placeholder='Only search' onChange={(e)=>setBen(e.target.value)} value={ben}/>
       <h1>{ben}</h1>
       <p>Muhammd zain naseer</p>
+      <p>junaid</p>
     </div>
   )
 }
