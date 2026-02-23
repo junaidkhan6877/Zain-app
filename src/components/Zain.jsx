@@ -17,6 +17,11 @@ const Zain = () => {
 <input type="text" placeholder='Search'  onChange={(e)=>setJunaid(e.target.value)} value={junaid}/>
 <h2>{junaid}</h2>
       <button type='button' style={{color:"red", backgroundColor:"black"}} onClick={()=>setMy()}>{my}</button>
+
+
+      <h1>junaid abdullah </h1>
+      <h2>Zain nasser</h2>
+      <h5>usman</h5>
     </div>
   )
 }
